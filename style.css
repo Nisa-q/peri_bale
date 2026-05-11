@@ -1,0 +1,343 @@
+@font-face {
+    font-family: 'MyLittlePony';
+    src: url("my-little-pony/pony.ttf") format("truetype");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #fff7fb;
+    color: #4a3b47;
+}
+
+header {
+    background-color: #f7c6d9;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-family: 'MyLittlePony', cursive;
+    font-size: 42px;
+    color: #5c9a84;
+}
+
+.logo span:hover {
+    color:#e88bb5;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a3b47;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'MyLittlePony', cursive;
+}
+
+nav a:hover {
+    color: #69b99d;
+}
+
+.hero {
+    min-height: 500px;
+    padding: 70px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    background-color: #fde2ef;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h1 {
+    font-family: 'MyLittlePony', cursive;
+    font-size: 60px;
+    color: #e88bb5;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero-card {
+    width: 35%;
+    background-color: #d8f3dc;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(232, 139, 181, 0.25);
+}
+
+.hero-card h2 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    margin-bottom: 15px;
+    font-size: 38px;
+    line-height: 1.1;
+}
+
+.hero-card p {
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: #b7e4c7;
+    color: #4a3b47;
+    text-decoration: none;
+    padding: 13px 24px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #95d5b2;
+}
+
+.features {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.feature-card {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 0 12px rgba(122, 201, 167, 0.25);
+}
+
+.feature-card h3 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    line-height: 1.6;
+}
+
+.about {
+    padding: 70px 60px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.about-text {
+    width: 60%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 0 12px rgba(232, 139, 181, 0.2);
+}
+
+.about-text h1 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.about-box {
+    width: 40%;
+    background-color: #d8f3dc;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.about-box h2 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    font-size: 40px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.about-box ul {
+    padding-left: 20px;
+}
+
+.about-box li {
+    margin-bottom: 12px;
+}
+
+.courses {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.courses h1 {
+    font-family: 'MyLittlePony', cursive;
+    font-size: 55px;
+    color: #e88bb5;
+    margin-bottom: 40px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.course-card {
+    width: 30%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 0 12px rgba(122, 201, 167, 0.25);
+}
+
+.course-card h2 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    font-size: 38px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.age {
+    color: #69b99d;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.special {
+    border: 3px solid #b7e4c7;
+    transform: scale(1.05);
+}
+
+.contact {
+    padding: 70px 60px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.contact-info {
+    width: 45%;
+    background-color: #fde2ef;
+    padding: 35px;
+    border-radius: 25px;
+}
+
+.contact-info h1 {
+    font-family: 'MyLittlePony', cursive;
+    color: #e88bb5;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+form {
+    width: 55%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 12px rgba(232, 139, 181, 0.2);
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    margin-bottom: 18px;
+    padding: 12px;
+    border: 2px solid #f7c6d9;
+    border-radius: 15px;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+button {
+    background-color: #b7e4c7;
+    color: #4a3b47;
+    border: none;
+    padding: 13px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #95d5b2;
+}
+
+footer {
+    background-color: #f7c6d9;
+    color: #4a3b47;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.fairy-logo{
+    width: 100px;
+    height: 100px;
+}
+
